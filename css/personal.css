@@ -154,6 +154,11 @@ section h3.section-subheading {
     clear:both;
     text-align:center;
 	width: 100%;
+	padding-bottom:40px;
+}
+
+#about .section-heading {
+	padding:40px;
 }
 
 #real-matters {
@@ -245,7 +250,30 @@ IMG.img-responsive {
     text-align:center;
 }
 
+#contact .section-heading {
+	padding:35px;
+}
 
+#contact .form-group {
+	margin-bottom: 25px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    padding: 20px;
+}
+
+#contact .form-group input.form-control {
+    height: auto;
+}
+
+#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+#contact .contact-links {
+	padding:25px;
+}
 
 footer .container {
     background-color:#233140;
