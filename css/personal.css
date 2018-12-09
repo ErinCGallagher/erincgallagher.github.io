@@ -18,7 +18,7 @@ body {
 #home {
   height:100%;
   overflow: hidden;
-  background: #6600CC; 
+  background-image: url(../img/laptop-back.jpg);
 }
 
 #home .vcenter-container {
@@ -95,9 +95,8 @@ body {
 }
 
 header {
-    text-align: center;
-    color: white;
-    background: #6600CC;
+    text-align: left;
+    padding-left: 50px;
 }
 
 
@@ -107,9 +106,27 @@ header .center-row {
 	height:auto;
 }
 
-intro-text	{
-    color: #B8E9D8;
+.intro-text	{
+    
+    font-weight: 700;
+    font-size: 75px;
+    color: #233140;
 }
+
+.intro-text-sub-heading {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+#home .list-inline, .col-lg-12 {
+	padding-top: 10px;
+}
+
+#home .col-lg-12 {
+	padding-left: 0px;
+}
+
+
 
 header li {
     -webkit-transition: all .2s ease-in-out;
