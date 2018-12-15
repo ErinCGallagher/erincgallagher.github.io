@@ -250,7 +250,7 @@ h3.section-subheading {
 /* Portfolio Section */
 
 #portfolio {
-	background-color: #5D8CAE;
+	background-color: #EEEEEE;
 }
 
 #portfolio .h4 {
@@ -262,7 +262,7 @@ h3.section-subheading {
 }
 
 #portfolio .container {
-	/*width: 100%;*/
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	padding-right: 50px;
@@ -281,8 +281,71 @@ h3.section-subheading {
 	color: #233140
 }
 
-#portfolio .service-description {
-	color: #233140;
+
+/*Project */
+
+#portfolio .project-details {
+	background-color: #00214d;
+	height: 355px;
+	color: white;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	letter-spacing: .0625em;
+}
+
+#portfolio .description {
+    font-weight: 400;
+    line-height: 1.5;
+	color:rgba(255,255,255,.7);
+}
+
+#portfolio .right {
+	text-align: right;
+}
+
+.line-right {
+	margin-right: 0!important;
+}
+
+.line-left {
+	margin-left: 0!important;
+}
+
+#portfolio .left {
+	text-align: left;
+}
+
+#portfolio .center {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#portfolio .project-img {
+	padding-right: 0!important;
+	padding-left: 0!important;
+	height: 355px;
+	background-color: black;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+.project-img img {
+	max-width: 100%;
+    height: auto;
+    max-height:100%;
+}
+
+#portfolio .project-container {
+	padding: 10px 65px;
+}
+
+
+hr {
+	border-color: #00cbc5;
+    border-width: .25rem;
+    width: 30%;
 }
 
 @media (min-width: 180px) { 
@@ -316,6 +379,9 @@ h3.section-subheading {
 
 /* About Section */
 
+#about {
+	background-color: #ccdbe5;
+}
 
 #about .h4 {
 	font-family:font-family: font-family: 'Amaranth', sans-serif;
@@ -329,11 +395,10 @@ h3.section-subheading {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: 50px;
-	padding-left: 50px;
+/*	padding-right: 50px;
+	padding-left: 50px;*/
 	padding-top: 150px;
 	padding-bottom: 150px;
-	background-color: #d2efee;
 }
 
 #about .section-heading {
@@ -346,7 +411,14 @@ h3.section-subheading {
 }
 
 #about .service-description {
+	letter-spacing: .0625em;
+    font-weight: 400;
+    line-height: 1.5;
 	color: #233140;
+}
+
+#about .text-primary {
+	color: #003171;
 }
 
 .service-heading {
@@ -368,13 +440,16 @@ h3.section-subheading {
 }
 
 @media (min-width:770px) { 
-	 #about {
-		padding:0;
+	 #about .container{
+		width: 970px
 	 }
 
 }
 
 @media (min-width: 900px) { 
+	#about .container{
+		width: 1170px
+	}
 }
 
 
@@ -384,7 +459,7 @@ h3.section-subheading {
 #contact {
 	height:90%;
 	overflow: hidden;
-    background-color: #947BA6;
+    background-color: #044F67;
     color:white;
     clear:both;
     text-align:center;
@@ -398,10 +473,11 @@ h3.section-subheading {
 
 #contact .btn-row {
 	padding-bottom:30px;
+	padding-top: 30px;
 }
 
 #contact .btn {
-	color:#B8E9D8
+	color:#36D7B7;
 	transition: all .2s ease-in-out;
     background: #00cbc5; /* Old browsers */
 }
