@@ -1,3 +1,6 @@
 [submodule "adventure-blog"]
 	path = adventure-blog
 	url = https://github.com/ErinCGallagher/adventure-blog.git
+[submodule "ruin"]
+	path = ruin
+	url = https://github.com/ErinCGallagher/ruin.git
