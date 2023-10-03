@@ -39,6 +39,7 @@ body {
   background-size: cover;
   background-position: 0 0;
   overflow: hidden;
+  background-color: #283618;
 }
 
 #home .vcenter-container {
