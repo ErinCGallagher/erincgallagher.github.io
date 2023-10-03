@@ -258,7 +258,6 @@ h3.section-subheading {
 
 #youtubevideos {
 	font-family: 'Quattrocento', serif;
-	background-color: #Fefae0;
 }
 
 #youtubevideos .h4 {
@@ -290,7 +289,7 @@ h3.section-subheading {
 /*Project */
 
 #youtubevideos .project-details {
-	background-color: #283618;
+	color:#698D40;
 	height: 355px;
 	color: white;
 	display: flex;
@@ -399,6 +398,7 @@ hr {
 	 
 	#youtubevideos .project-details {
 		height: 255px;
+		color:#698D40;
 	}
 	
 	#youtubevideos .project-img {
