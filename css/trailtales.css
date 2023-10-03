@@ -5,6 +5,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url('https://fonts.googleapis.com/css?family=Quattrocento&display=swap')
+
 html {
     scroll-behavior: smooth;
 }
@@ -57,11 +59,11 @@ body {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #233140;
+    background-color: #283618;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Quattrocento', serif;
     color: white;
 }
 
@@ -69,13 +71,13 @@ body {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #B8E9D8;
+    color: #698D40;
 }
 
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Quattrocento', serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: white;
@@ -146,7 +148,7 @@ h2.section-heading {
 	margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Quattrocento', serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -154,7 +156,7 @@ h2.section-heading {
 h3.section-subheading {
     margin-bottom: 90px;
     text-transform: none;
-    font-family: font-family: 'Amaranth', sans-serif;
+    font-family: 'Quattrocento', serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -252,12 +254,11 @@ h3.section-subheading {
 }
 
 #portfolio .h4 {
-	font-family:font-family: font-family: 'Amaranth', sans-serif;
+	 font-family: 'Quattrocento', serif;
 }
 
 #portfolio .h3 {
-	font-family:font-family: font-family: 'Amaranth', sans-serif;
-}
+	 font-family: 'Quattrocento', serif;
 
 #portfolio .container {
 	width: 100%;
@@ -412,11 +413,11 @@ hr {
 }
 
 #about .h4 {
-	font-family:font-family: font-family: 'Amaranth', sans-serif;
+	 font-family: 'Quattrocento', serif;
 }
 
 #about .h3 {
-	font-family:font-family: font-family: 'Amaranth', sans-serif;
+	 font-family: 'Quattrocento', serif;
 }
 
 #about .container {
