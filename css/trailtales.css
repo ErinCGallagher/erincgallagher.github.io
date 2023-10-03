@@ -198,7 +198,7 @@ h3.section-subheading {
 	header .intro-text	{  
     	font-weight: 700;
     	font-size: 75px;
-    	color: #233140;
+    	color: #283618;
 	}
 
 	header .intro-text-sub-heading {
@@ -221,7 +221,7 @@ h3.section-subheading {
 	header .intro-text	{  
     	font-weight: 700;
     	font-size: 75px;
-    	color: #233140;
+    	color: #283618;
 	}
 
 	header .intro-text-sub-heading {
@@ -237,7 +237,7 @@ h3.section-subheading {
 	header .intro-text	{  
     	font-size: 65px;
     	padding-top: 100px;
-    	color: #233140;
+    	color: #283618;
     	text-align: center;
 	}
 	
@@ -278,12 +278,12 @@ h3.section-subheading {
 }
 
 #portfolio .section-heading {
-	color: #233140;
+	color: #283618;
 }
 
 #portfolio .section-subheading {
 	font-weight: 400;
-	color: #233140
+	color: #283618
 }
 
 
@@ -414,13 +414,13 @@ hr {
 }
 
 .service-heading {
-	color: #233140;
+	color: #283618;
 }
 
 footer .container-footer{
 	height:10%;
 	overflow: hidden;
-    background-color:#233140;
+    background-color:#283618;
     color:white;
     text-align:center;
     padding:25px 0; 
