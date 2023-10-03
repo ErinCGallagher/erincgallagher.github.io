@@ -254,20 +254,21 @@ h3.section-subheading {
 
 
 
-/* Videos Section */
+/* Portfolio Section */
 
-#youtubevideos {
-	font-family: 'Quattrocento', serif;
+#portfolio {
+	background-color: #EEEEEE;
 }
 
-#youtubevideos .h4 {
-	 font-family: 'Quattrocento', serif;
+#portfolio .h4 {
+	font-family:font-family: font-family: 'Amaranth', sans-serif;
 }
 
-#youtubevideos .h3 {
-	 font-family: 'Quattrocento', serif;
+#portfolio .h3 {
+	font-family:font-family: font-family: 'Amaranth', sans-serif;
+}
 
-#youtubevideos .container {
+#portfolio .container {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -276,11 +277,11 @@ h3.section-subheading {
 	
 }
 
-#youtubevideos .section-heading {
+#portfolio .section-heading {
 	color: #233140;
 }
 
-#youtubevideos .section-subheading {
+#portfolio .section-subheading {
 	font-weight: 400;
 	color: #233140
 }
@@ -288,8 +289,8 @@ h3.section-subheading {
 
 /*Project */
 
-.project-details {
-	color:#698D40;
+#portfolio .project-details {
+	background-color: #00214d;
 	height: 355px;
 	color: white;
 	display: flex;
@@ -298,13 +299,13 @@ h3.section-subheading {
   	letter-spacing: .0625em;
 }
 
-#youtubevideos .description {
+#portfolio .description {
     font-weight: 400;
     line-height: 1.5;
 	color:rgba(255,255,255,.7);
 }
 
-#youtubevideos .right {
+#portfolio .right {
 	text-align: right;
 }
 
@@ -316,16 +317,16 @@ h3.section-subheading {
 	margin-left: 0!important;
 }
 
-#youtubevideos .left {
+#portfolio .left {
 	text-align: left;
 }
 
-#youtubevideos .center {
+#portfolio .center {
 	margin-right: 100px;
 	margin-left: 100px;
 }
 
-.project-img {
+#portfolio .project-img {
 	padding-right: 0!important;
 	padding-left: 0!important;
 	height: 355px;
@@ -336,52 +337,53 @@ h3.section-subheading {
 }
 
 .project-img img {
-    max-width: 100%;
+	max-width: 100%;
     height: auto;
     max-height:100%;
 }
 
-.project-container {
+#portfolio .project-container {
 	padding: 10px 65px;
 }
 
 
-#youtubevideos .btn {
-    color: #698D40;
-    transition: all .2s ease-in-out;
-    background: #698D40; /* Old browsers */
+#portfolio .btn {
+	color:#36D7B7;
+	transition: all .2s ease-in-out;
+    background: #00cbc5; /* Old browsers */
 }
 
+
 hr {
-	border-color: #698D40;
+	border-color: #00cbc5;
     border-width: .25rem;
     width: 30%;
 }
 
 /* greater than or equal to */
 @media (min-width: 180px) { 
-	 #youtubevideos {
+	 #portfolio {
 		padding:0;
 	 }
 }
 
 
 @media (min-width: 480px) { 
-	 #youtubevideos {
+	 #portfolio {
 		padding:0;
 	 }
 	
 }
 
 @media (min-width:770px) { 
-	 #youtubevideos {
+	 #portfolio {
 		padding:0;
 	 }
 
 }
 
 @media (min-width: 900px) { 
-	#youtubevideos .center {
+	#portfolio .center {
 		margin-right: auto;
 		margin-left: auto;
 		max-width:1100px;
@@ -390,27 +392,25 @@ hr {
 
 /* less than or equal to */
 @media (max-width: 990px) { 
-	#youtubevideos .center {
+	#portfolio .center {
 		margin-right: auto;
 		margin-left: auto;
 		max-width:500px;
 	 }
 	 
-	.project-details {
+	#portfolio .project-details {
 		height: 255px;
-		color:#698D40;
 	}
 	
-	.project-img {
+	#portfolio .project-img {
 		height: 255px;
 		margin-bottom: 30px;
 	}
 	
-	.project-container {
+	#portfolio .project-container {
     	padding: 10px 45px;
 	}
 }
-
 
 .service-heading {
 	color: #233140;
