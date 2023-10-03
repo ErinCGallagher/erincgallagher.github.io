@@ -180,7 +180,7 @@ h3.section-subheading {
 
 @media (min-width: 680px) {
 	#home {
-		background-image: url(../img/laptop-back.jpg);
+		background-image: url(../img/trail-tails-back.jpg);
 	}
 
 	header {
@@ -203,7 +203,7 @@ h3.section-subheading {
 
 @media (min-width: 900px) { 
 	#home {
-		background-image: url(../img/laptop-back.jpg);
+		background-image: url(../img/trail-tails-back.jpg);
 	}
 
 	header {
@@ -249,18 +249,18 @@ h3.section-subheading {
 
 /* Videos Section */
 
-#videos {
+#youtubevideos {
 	background-color: #Fefae0;
 }
 
-#videos .h4 {
+#youtubevideos .h4 {
 	 font-family: 'Quattrocento', serif;
 }
 
-#videos .h3 {
+#youtubevideos .h3 {
 	 font-family: 'Quattrocento', serif;
 
-#videos .container {
+#youtubevideos .container {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -269,11 +269,11 @@ h3.section-subheading {
 	
 }
 
-#videos .section-heading {
+#youtubevideos .section-heading {
 	color: #233140;
 }
 
-#videos .section-subheading {
+#youtubevideos .section-subheading {
 	font-weight: 400;
 	color: #233140
 }
@@ -281,7 +281,7 @@ h3.section-subheading {
 
 /*Project */
 
-#videos .project-details {
+#youtubevideos .project-details {
 	background-color: #283618;
 	height: 355px;
 	color: white;
@@ -291,13 +291,13 @@ h3.section-subheading {
   	letter-spacing: .0625em;
 }
 
-#videos .description {
+#youtubevideos .description {
     font-weight: 400;
     line-height: 1.5;
 	color:rgba(255,255,255,.7);
 }
 
-#videos .right {
+#youtubevideos .right {
 	text-align: right;
 }
 
@@ -309,16 +309,16 @@ h3.section-subheading {
 	margin-left: 0!important;
 }
 
-#videos .left {
+#youtubevideos .left {
 	text-align: left;
 }
 
-#videos .center {
+#youtubevideos .center {
 	margin-right: 100px;
 	margin-left: 100px;
 }
 
-#videos .project-img {
+#youtubevideos .project-img {
 	padding-right: 0!important;
 	padding-left: 0!important;
 	height: 355px;
@@ -328,18 +328,18 @@ h3.section-subheading {
   	justify-content: center;
 }
 
-.project-img img {
-	max-width: 100%;
+#youtubevideos .project-img img {
+    max-width: 100%;
     height: auto;
     max-height:100%;
 }
 
-#videos .project-container {
+#youtubevideos .project-container {
 	padding: 10px 65px;
 }
 
 
-#videos .btn {
+#youtubevideos .btn {
 	color: #698D40;
 	transition: all .2s ease-in-out;
     background: #698D40; /* Old browsers */
@@ -354,28 +354,28 @@ hr {
 
 /* greater than or equal to */
 @media (min-width: 180px) { 
-	 #videos {
+	 #youtubevideos {
 		padding:0;
 	 }
 }
 
 
 @media (min-width: 480px) { 
-	 #videos {
+	 #youtubevideos {
 		padding:0;
 	 }
 	
 }
 
 @media (min-width:770px) { 
-	 #videos {
+	 #youtubevideos {
 		padding:0;
 	 }
 
 }
 
 @media (min-width: 900px) { 
-	#videos .center {
+	#youtubevideos .center {
 		margin-right: auto;
 		margin-left: auto;
 		max-width:1100px;
@@ -384,22 +384,22 @@ hr {
 
 /* less than or equal to */
 @media (max-width: 990px) { 
-	#videos .center {
+	#youtubevideos .center {
 		margin-right: auto;
 		margin-left: auto;
 		max-width:500px;
 	 }
 	 
-	#videos .project-details {
+	#youtubevideos .project-details {
 		height: 255px;
 	}
 	
-	#videos .project-img {
+	#youtubevideos .project-img {
 		height: 255px;
 		margin-bottom: 30px;
 	}
 	
-	#videos .project-container {
+	#youtubevideos .project-container {
     	padding: 10px 45px;
 	}
 }
