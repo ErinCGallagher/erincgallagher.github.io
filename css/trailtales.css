@@ -25,6 +25,7 @@ body {
   height:100%;
   overflow: hidden;
   background-image: url(../img/trail-tails-back.jpg);
+  resize: both;
 }
 
 .section {
@@ -108,13 +109,14 @@ header .intro-text	{
     font-family: 'Quattrocento', serif;
     font-weight: 700;
     font-size: 75px;
-    color: #233140;
+    color: #283618;
 }
 
 header .intro-text-sub-heading {
     font-family: 'Quattrocento', serif;
     font-weight: 300;
     font-size: 35px;
+    color: #283618;
 }
 
 #home .list-inline, .col-lg-12 {
@@ -165,7 +167,7 @@ h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-	color:white;
+    color:white;
 }
 
 /* greater than or equal to */
@@ -346,11 +348,10 @@ h3.section-subheading {
 
 
 #youtubevideos .btn {
-	color: #698D40;
-	transition: all .2s ease-in-out;
+    color: #698D40;
+    transition: all .2s ease-in-out;
     background: #698D40; /* Old browsers */
 }
-
 
 hr {
 	border-color: #698D40;
@@ -459,44 +460,6 @@ hr {
 		padding-top: 10px;
 		padding-bottom: 100px;
 	 }
-}
-
-
-
-/* Contact Section */
-
-#contact {
-	height:90%;
-	overflow: hidden;
-    background-color: #283618;
-    color:white;
-    clear:both;
-    text-align:center;
-}
-
-#contact .center-row {
-	position:relative;
-	height:auto;
-}
-
-#contact .btn-row {
-	padding-bottom:30px;
-	padding-top: 30px;
-}
-
-#contact .btn {
-	color: #698D40;
-	transition: all .2s ease-in-out;
-    background: #698D40; /* Old browsers */
-}
-
-#contact .btn:hover {
-    opacity: 0.8;
-    color: #fff;
-}
-
-#contact .contact-links {
-	padding:10px;
 }
 
 footer .container-footer{
