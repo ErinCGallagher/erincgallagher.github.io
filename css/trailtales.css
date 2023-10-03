@@ -104,12 +104,14 @@ header .center-row {
 }
 
 header .intro-text	{  
+    font-family: 'Quattrocento', serif;
     font-weight: 700;
     font-size: 75px;
     color: #233140;
 }
 
 header .intro-text-sub-heading {
+    font-family: 'Quattrocento', serif;
     font-weight: 300;
     font-size: 35px;
 }
@@ -145,7 +147,8 @@ header li:hover {
 
 
 h2.section-heading {
-	margin-top: 0;
+    font-family: 'Quattrocento', serif;
+    margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
     font-family: 'Quattrocento', serif;
@@ -154,6 +157,7 @@ h2.section-heading {
 }
 
 h3.section-subheading {
+    font-family: 'Quattrocento', serif;
     margin-bottom: 90px;
     text-transform: none;
     font-family: 'Quattrocento', serif;
@@ -250,6 +254,7 @@ h3.section-subheading {
 /* Videos Section */
 
 #youtubevideos {
+	font-family: 'Quattrocento', serif;
 	background-color: #Fefae0;
 }
 
